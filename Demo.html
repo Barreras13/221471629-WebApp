@@ -3,6 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Website Demo</title>
+    <style>
+        table {border-collapse: collapse;
+        width: 300px;
+        }
+        td,th {
+            border: 1px solid #ac1414;
+            text-align: center;
+            padding: 8px;
+        }
+        tr:nth-child(even) {
+        background-color: #fefefe;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -14,20 +27,22 @@
             </ul>
         </nav>
     </header>
-</body>
-<article>
     <h1>We are honored that you're here!</h1>
+
     <section>
         <h2>About Us</h2>
         <p>We do something fishy.</p>
     </section>
+
     <h2>Contact</h2>
         <p>Please contact us below:</p>
-        <li><strong>Number:</strong> 09202066711</li>
-        <li><strong>E-mail:</strong> ramonisgay@gmail.com</li>
-</article>
-<figure><img src="japan.jpg" alt=""height="300", width="500"></figure>
-<figcaption>A picture taken somwhere in Japan.</figcaption>
+        <p>Number: 09202066711</p>
+        E-mail: ramonisgay@gmail.com
+<figure>
+    <img src="japan.jpg" alt="Picture hehe" height="300" width="500">
+    <figcaption>A picture taken somwhere in Japan.</figcaption>
+</figure>
+
     
     <form>
         <label for="name"><strong>Name:</strong></label><br>
@@ -43,9 +58,10 @@
 
             Female
           <label for="female">
-            <input type="radio" id="female" name="gender" value="female"><br>
-            <label for="terms">
-                <input type="Checkbox" id="terms" name="terms">
+            <input type="radio" id="female" name="gender" value="female"> Female
+            </label>
+          <label for="terms">
+                <input type="Checkbox" id="terms" name="terms"> Checkbox Label
                 I accept the terms and conditions.
             </label>
                 <br>
@@ -53,19 +69,7 @@
         <br><input type="submit" value="submit"><br>
     </form>
 
-    <style>
-        table {border-collapse: collapse;
-        width: 300;
-        }
-        td,th {
-            border: 1px solid #ac1414;
-            text-align: center;
-            padding: 8px;
-        }
-        tr:nth-child(even) {
-        background-color: #fefefe;
-        }
-    </style>
+
 
     <table>
         <caption>User Information</caption>
@@ -91,12 +95,11 @@
     </table>
 
     <form>
-        <h5>
-            <audio controls><source src="Elley Duhé  MIDDLE OF THE NIGHT Official Video.mp3" type="audio/mpeg">
+            <audio controls><source src="ElleyDuhéMIDDLEOFTHENIGHTOfficialVideo.mp3" type="audio/mpeg">
             </audio>
-        </h5>
     </form>
     <video width="500" height="300" controls>
         <source src="beaver.mp4" type="video/mp4">
     </video>
+</body>
 </html>
