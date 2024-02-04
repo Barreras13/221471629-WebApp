@@ -4,8 +4,6 @@
   <title>My Webpage</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <style>
-    /* Additional CSS styles specific to the webpage */
-    /* ... */
   </style>
 </head>
 <body>
@@ -44,19 +42,28 @@
 
   <abbr title="World Health Organization">WHO</abbr> is an abbreviation for World Health Organization.
 
+  
   <cite>The Great Gatsby</cite> is a novel written by F. Scott Fitzgerald.
 
+  <form>
+    <label for="choose">Would you prefer a banana or a cherry?</label>
+    <input id="choose" name="i-like" required pattern="[Bb]anana|[Cc]herry" />
+    <button>Submit</button>
+  </form>
+  
   <form>
     <label for="emailInput">Email:</label>
     <input type="email" id="emailInput" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
 
-    <label for="numberInput">Number:</label>
-    <input type="number" id="numberInput" name="number" required min="1" max="100">
+    <br><label for="numberInput">Number:</label>
+    <input type="number" id="numberInput" name="number" required min="1" max="100"></br>
 
     <label for="dateInput">Date:</label>
     <input type="date" id="dateInput" name="date" required>
     
-    <input type="submit" value="Submit">
+    <div>
+      <button>Submit</button>
+    </div>
   </form>
   <script src="java.js"></script>
 
