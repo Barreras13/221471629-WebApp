@@ -1,0 +1,46 @@
+.game-title {
+    font-family: Arial, sans-serif;
+    font-size: 48px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transform: perspective(500px) rotateX(30deg);
+    margin-top: 50px;
+    text-align: center;
+}
+
+#game-board {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    transform: perspective(500px) rotateX(30deg);
+    margin: 0 auto;body {
+  text-align:center;
+  font-family: helvetica;
+}
+canvas {
+  border: 2px solid rgb(151, 149, 149);
+}
+}
+
+.score-label {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transform: perspective(500px) rotateX(30deg);
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.score-value {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transform: perspective(500px) rotateX(30deg);
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+}
