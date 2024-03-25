@@ -39,13 +39,13 @@ function drawBoard() {
 
 // Function to handle keyboard input
 function handleKeyPress(event) {
-    if (event.key === "ArrowUp" && direction !== "down") {
+    if (event.key === "W" && direction !== "down") {
         direction = "up";
-    } else if (event.key === "ArrowDown" && direction !== "up") {
+    } else if (event.key === "S" && direction !== "up") {
         direction = "down";
-    } else if (event.key === "ArrowLeft" && direction !== "right") {
+    } else if (event.key === "A" && direction !== "right") {
         direction = "left";
-    } else if (event.key === "ArrowRight" && direction !== "left") {
+    } else if (event.key === "D" && direction !== "left") {
         direction = "right";
     }
 }
